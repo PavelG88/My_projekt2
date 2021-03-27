@@ -176,3 +176,57 @@ header {
     color: #7B7B7B;
     margin: 0;
 }
+
+/* WHO WE */
+.who_we {
+    display: flex;
+    justify-content: space-between;
+}
+
+.who_we_img {
+    width: 50%;
+}
+
+.who_we_img {
+    width: 100%;
+}
+
+.who_we_text {
+    background-color: #FFC155;
+    padding: 90px 30px 35px 80px;
+    box-sizing: border-box;
+}
+
+.who_we_text h2 {
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin: 0;
+    text-transform: uppercase; 
+}
+
+.who_we_text p {
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;    
+}
+
+.who_we_text_button {
+    max-width: 190px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background-color: #F3AF37;
+    border-radius: 5px;
+    text-align: center; 
+
+}
+
+.who_we_text_button a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase; 
+    color: #FFFFFF;  
+}
