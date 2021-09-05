@@ -187,8 +187,9 @@ header {
     width: 50%;
 }
 
-.who_we_img {
+.who_we_img  img {
     width: 100%;
+    height: 100%;
 }
 
 .who_we_text {
@@ -229,4 +230,35 @@ header {
     line-height: 21px;
     text-transform: uppercase; 
     color: #FFFFFF;  
+}
+
+/*MOSCOW IN PHOTO*/
+.moscow_in_photo_text {
+    padding: 100px 150px;
+    box-sizing: border-box;
+}
+
+.moscow_in_photo_text h2 {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;  
+    color: #709DCA;
+    text-align: center;    
+}
+
+.moscow_in_photo_text p {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #062033;    
+}
+
+.moscow_in_photo_img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.moscow_in_photo_img img {
+    width: 25%;
 }
